@@ -1,0 +1,66 @@
+/*
+  CSS personnal webpage
+*/
+
+@font-face {
+
+  src: url(/fonts/arista.ttf); }
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Reenie Beanie', arial, serif;
+    color: bd6b00;
+}
+
+div#container {
+    width: 100%; 
+    clear: both; 
+}
+
+div#left {
+    float:left; 
+    background-image:url(/images/me.png) ; 
+    margin-left:0px; 
+    height: 1000px; 
+    width: 477px; 
+}
+
+div#right {
+    background-image:url(/images/rep2.png) ; 
+    margin-left: 477px ;
+    padding-left: 50px; 
+    font-size: 30px; 
+    height: 1000px;      
+}
+
+div#main {
+    padding-top: 30px; 
+}
+
+
+div#main div#std-title {
+    float:left; 
+    width: 500px; 
+}
+
+div#main div#social-icons {
+    float: right; 
+    width: 200px; 
+    padding-top: 50px; 
+   //  margin-left: 700px;
+  
+}
+div#main div#title {
+    height: 140px;
+    min-width: 700px; 
+}
+
+div#main div#title p {
+    margin-top:-40px; 
+    padding-left: 20px; 
+}
+
+div#main a {
+    color: 56a8e1; 
+}
