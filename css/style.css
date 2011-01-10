@@ -38,8 +38,13 @@ div#right {
     height: 1400px;      
     //width: 60%; 
     text-align: justify;
-    padding-right: 10px; 
+    padding-right: 100px; 
     
+}
+
+li.tlist {
+
+    padding-bottom: 15px; 
 }
 
 div#main {
@@ -54,7 +59,8 @@ div#main div#std-title {
 div#main div#social-icons {
     float: right; 
     width: 200px; 
-    padding-top:35px; 
+    padding-top:35px;
+    text-align: right; 
    //  margin-left: 700px;
   
 }
