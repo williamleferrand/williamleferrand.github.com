@@ -53,7 +53,7 @@ div#main {
 
 div#main div#std-title {
     float:left; 
-    width: 500px; 
+    width: 450px; 
 }
 
 div#main div#social-icons {
@@ -65,7 +65,7 @@ div#main div#social-icons {
 }
 div#main div#title {
     height: 140px;
-    min-width: 700px; 
+    min-width: 650px; 
 }
 
 div#main div#title p {
