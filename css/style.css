@@ -61,7 +61,6 @@ div#main div#social-icons {
     width: 200px; 
     padding-top:35px;
     text-align: right; 
-   //  margin-left: 700px;
   
 }
 div#main div#title {
@@ -75,7 +74,7 @@ div#main div#title p {
 }
 
 div#main a {
-    color: bd6b00;
+    color: #bd6b00;
     text-decoration: none; 
 }
 
@@ -84,6 +83,6 @@ div#main a:hover {
 }
 
 div#main a:visited {
-    color: bd6b00;
+    color: #bd6b00;
     text-decoration: none;
 }
