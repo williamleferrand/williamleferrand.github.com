@@ -83,3 +83,7 @@ div#main a:hover {
     font-weight: bold; 
 }
 
+div#main a:visited {
+    color: bd6b00;
+    text-decoration: none;
+}
