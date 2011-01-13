@@ -41,7 +41,7 @@ div#right {
     //width: 60%; 
     text-align: justify;
     padding-right: 100px; 
-    min-width: 500px; 
+    min-width: 700px; 
 }
 
 li.tlist {
@@ -60,7 +60,7 @@ div#main div#std-title {
 
 div#main div#social-icons {
     float: right; 
-    width: 200px; 
+    width: 250px; 
     padding-top:35px;
     text-align: right; 
   
