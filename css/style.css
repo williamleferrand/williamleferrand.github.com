@@ -10,6 +10,7 @@ body {
     font-family: 'Josefin Slab', arial, serif;
     line-height: 23px; 
     color: 000000;
+    
 }
 
 div#std-title {
@@ -28,6 +29,7 @@ div#left {
     margin-left:0px; 
     height: 1400px; 
     width: 477px; 
+    
 }
 
 div#right {
@@ -39,7 +41,7 @@ div#right {
     //width: 60%; 
     text-align: justify;
     padding-right: 100px; 
-    
+    min-width: 500px; 
 }
 
 li.tlist {
