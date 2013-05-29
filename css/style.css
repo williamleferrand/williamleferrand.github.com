@@ -8,9 +8,9 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     font-family: 'Josefin Slab', arial, serif;
-    line-height: 23px; 
+    line-height: 23px;
     color: 000000;
-    
+
 }
 
 div#std-title {
@@ -19,69 +19,69 @@ div#std-title {
 }
 
 div#container {
-    width: 100%; 
-    clear: both; 
+    width: 100%;
+    clear: both;
 }
 
 div#left {
-    float:left; 
-    background-image:url(../images/me.png) ; 
-    margin-left:0px; 
-    height: 1400px; 
-    width: 477px; 
-    
+    float:left;
+    background-image:url(../images/me.png) ;
+    margin-left:0px;
+    height: 1400px;
+    width: 477px;
+
 }
 
 div#right {
-    background-image:url(../images/rep2.png) ; 
+    background-image:url(../images/rep2.png) ;
     margin-left: 477px ;
-    padding-left: 50px; 
-    font-size: 20px; 
-    height: 1400px;      
-    //width: 60%; 
+    padding-left: 50px;
+    font-size: 20px;
+    height: 1400px;
+    //width: 60%;
     text-align: justify;
-    padding-right: 100px; 
-    min-width: 700px; 
+    padding-right: 100px;
+    min-width: 700px;
 }
 
 li.tlist {
 
-    padding-bottom: 15px; 
+    padding-bottom: 15px;
 }
 
 div#main {
-    padding-top: 30px; 
+    padding-top: 30px;
 }
 
 div#main div#std-title {
-    float:left; 
-    width: 450px; 
+    float:left;
+    width: 450px;
 }
 
 div#main div#social-icons {
-    float: right; 
-    width: 250px; 
+    float: right;
+    width: 250px;
     padding-top:35px;
-    text-align: right; 
-  
+    text-align: right;
+
 }
 div#main div#title {
-    height: 140px;
-    min-width: 650px; 
+    height: 120px;
+    min-width: 650px;
 }
 
 div#main div#title p {
-    margin-top:-40px; 
-    padding-left: 20px; 
+    margin-top:-40px;
+    padding-left: 20px;
 }
 
 div#main a {
     color: #bd6b00;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 div#main a:hover {
-    font-weight: bold; 
+
 }
 
 div#main a:visited {
