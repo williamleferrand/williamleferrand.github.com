@@ -6,7 +6,7 @@
 \usepackage[T1]{fontenc}       %% Pour la césure des mots accentués
 \usepackage[paper=a4paper,textwidth=160mm]{geometry}
 
-\newcommand{\lieu}[1]{{#1}\ }
+\newcommand{\lieu}[1]{}
 \newcommand{\activite}[1]{\textbf{#1}\ }
 \newcommand{\comment}[1]{\textsl{#1}\ }
 
@@ -22,7 +22,7 @@
 	\ligne\\%
 	%\raggedright
 	(415) 683-1484\\%
-	\texttt{william@myrilion.com}
+	\texttt{william@themipsfactory.com}
 \end{adresse}
 \begin{etatcivil}
   \texttt{williamleferrand.github.io}\\%
@@ -30,6 +30,7 @@
   \ligne\\%
   Born 4/14/1987\\
   French citizen\\
+Married, 2 children\\
   E2 Visa
 \end{etatcivil}
 \end{chapeau}
@@ -41,81 +42,92 @@
 	%%%%%%%%%%%%%%%%%%
 
 \begin{rubriquetableau}[3.5cm]{Academics}
-2006--2010
+2006 - 2010
 	& \activite{Ecole Polytechnique}
-	\comment{MS in Computer Science}
+	\comment{Paris, MS in Computer Science}
 \end{rubriquetableau}
 
 \begin{rubriquetableau}[3.5cm]{Talks}
 2010
         & \activite{OCaml meeting 2010}
         \comment{\og the collaborative rendering farm: a
-          JoCaml-powered desktop grid\fg}
+          JoCaml grid\fg}
 \end{rubriquetableau}
 
-\begin{rubriquetableau}[3.5cm]{Activity}
-2007
-   & \activite{halix.fr}
-   \comment{image search using SIFT \& neural networks}
-   \lieu{(discontinued)} \\
+\begin{rubriquetableau}[3.5cm]{Entrepreneurial activity}
+2007 & \activite{halix.fr} \comment{image search using SIFT \& neural networks} \\
+%         & \lieu{(discontinued)} \\
 
-2008 - 2009
-   & \activite{beouifi.org}
-   \comment{wifi captive portals financed by advertisement}
-   \lieu{(discontinued)} \\
+2008 - 2009 & \activite{beouifi.org} \comment{wifi captive portals financed by advertisement} \\
+ %                   & \lieu{(Paris, discontinued)} \\
 
-2009
-   & \activite{corefarm.org}
-   \comment{collaborative farm using people's browsers to render 3d
-     images through the google native client}
-   \lieu{(discontinued)}\\
+2009 & \activite{corefarm.org} \comment{meshing web browsers to render
+3d scenes} \\
+%       & \lieu{(Paris, discontinued)} \\
 
-2010
-   & \activite{corefarm.com (angel.co/corefarm)}
-   \comment{elastic rendering farm in AWS}
-   \lieu{(discontinued, some pieces sold to issuu.com, other open-sourced)}\\
+2010 & \activite{corefarm.com} \comment{Blender 3d rendering farm in AWS}\\
+ %       & \lieu{(Paris, discontinued, some pieces sold to issuu.com, other
+ %         open-sourced)} \\
 
-2010
-   & \activite{hypios.com (vp Engineering) }
-   \comment{scientific problem's marketplace}
-   \lieu{(still thriving in Paris)}\\
+2011 - 2013 & \activite{besport.com} \comment{CTO then CEO, sport social network} \\
+%& \lieu{(San Francisco)}\\
 
-2010
-   & \activite{issuu.com (contractor) }
-   \comment{contributing to issuu's ad network initial implementation}\\
+2013 - & \activite{besport.com} \comment{board member, sport social
+  network} \\
+%&  \lieu{(Paris)}\\
 
-2011 - 2013
-  & \activite{besport.com (angel.co/be-sport, cto, interim ceo)}
-  \comment{sport social network}\\
+2013 - 2014 & \activite{rambugo.com}
+   \comment{founder, online marketplace for Air Taxis} \\
+%&  \lieu{(San Francisco, discontinued)} \\
+
+2015 - & \activite{accret.io}
+   \comment{founder, non-profit, tools for local/micro leaders} \\
+%& \lieu{(San Francisco)} \\
+
+\end{rubriquetableau}
+
+\begin{rubriquetableau}[3.5cm]{Contracting activity}
+2010 - 2011
+   & \activite{hypios.com}
+   \comment{scientific problems' marketplace} \\
+ % & \lieu{(Paris, discontinued in 2014)}\\
+
+2011
+   & \activite{issuu.com}
+   \comment{contributing to issuu's ad network initial OCaml implementation}\\
+% & \lieu{(Copenhagen)}\\
 
 2013
-& \activite{rambugo.com (angel.co/rambugo, founder)}
-   \comment{online marketplace for Air Taxis} \\
+& \activite{stretchinc.com}
+   \comment{built full stack prototype of a cloud based/html5 DVR} \\
+% & \lieu{(Sunnyvale)} \\
 
 2013
-& \activite{stretchinc.com (contractor)}
-   \comment{built full stack prototype of a cloud based DVR (S3
-     storage, on the fly webm/mp4 conversion, HTML5 player)} \\
-
-2013
-& \activite{referrallama.com (contractor)}
+& \activite{referrallama.com}
    \comment{built full stack prototype of a referral platform} \\
+ % &  \lieu({New York}) \\
 
-2013 - 2014
-& \activite{sumologic.com (contractor)}
-   \comment{built various system changes aiming at improving the
-     platform's performance} \\
-
+2013 -
+& \activite{sumologic.com}
+   \comment{rebuilt ingest+search engine for machine logs
+     using scala/akka} \\
+% &  \lieu{(Redwood City)} \\
 
 \end{rubriquetableau}
 
 \begin{rubrique}{Skills}%
 \begin{itemize}
-\item Ocaml, C++, Web Development, Big Data, System Architecture, C,
-  User Experience, Design, Entrepreneurship, Scala, Akka, Lucene,
-  ZeroMQ, Functional Programming
-\item Private Pilot
+\item Programming in Ocaml (including Camlp4), Scala (including Akka), Js, SASS
+\item After a little refresher, programming  in C/C++ (including Boost)
+\item Defining pleasant and scalable architectures
+\item Defining \& implementing prototypes and MVP's
+\item Using modern tools for the job (OCaml to JS compiler for web
+  dev)
+\item Learning and leveraging new techniques or mindsets
+\item Flying airplanes
 \end{itemize}
 \end{rubrique}
+
+
 
 \end{document}
