@@ -5,7 +5,7 @@
 \usepackage[latin1]{inputenc}  %% les accents dans le fichier.tex
 \usepackage[T1]{fontenc}       %% Pour la césure des mots accentués
 \usepackage[paper=a4paper,textwidth=160mm]{geometry}
-
+\usepackage{hyperref}
 \newcommand{\lieu}[1]{}
 \newcommand{\activite}[1]{\textbf{#1}\ }
 \newcommand{\comment}[1]{\textsl{#1}\ }
@@ -18,113 +18,126 @@
 \begin{adresse}
 	William Le Ferrand\\%
 	1168 Greenwich Street \#4\\%
-	San Francisco 94109\\%
+	San Francisco 94109 CA USA\\%
 	\ligne\\%
 	%\raggedright
 	(415) 683-1484\\%
-	\texttt{william@themipsfactory.com}
+	\texttt{william.le-ferrand@polytechnique.edu}
 \end{adresse}
 \begin{etatcivil}
   \texttt{williamleferrand.github.io}\\%
   \texttt{angel.co/wleferrand}\\%
   \ligne\\%
   Born 4/14/1987\\
-  French citizen\\
-Married, 2 children\\
-  E2 Visa
+  French Citizen\\
 \end{etatcivil}
 \end{chapeau}
 
-
+\vspace{5mm}
 
 	%%%%%%%%%%%%%%%%%%
 	% Bloc rubriques %
 	%%%%%%%%%%%%%%%%%%
 
-\begin{rubriquetableau}[3.5cm]{Academics}
+\begin{rubriquetableau}[3.0cm]{Academics}
 2006 - 2010
 	& \activite{Ecole Polytechnique}
-	\comment{Paris, MS in Computer Science}
+	\comment{Masters in Computer Science}
 \end{rubriquetableau}
 
-\begin{rubriquetableau}[3.5cm]{Talks}
-2010
-        & \activite{OCaml meeting 2010}
-        \comment{\og the collaborative rendering farm: a
-          JoCaml grid\fg}
-\end{rubriquetableau}
+\begin{rubriquetableau}[3.0cm]{Entrepreneurial activity}
 
-\begin{rubriquetableau}[3.5cm]{Entrepreneurial activity}
-2007 & \activite{halix.fr} \comment{image search using SIFT \& neural networks} \\
-%         & \lieu{(discontinued)} \\
-
-2008 - 2009 & \activite{beouifi.org} \comment{wifi captive portals financed by advertisement} \\
+2008 - 2009 & \activite{beouifi.org} \comment{built a wifi captive
+  portal solution funded by advertisement; won an entrepreneurial
+  contest and was featured on the radio. 100 users (cafés, hostels)} \\
  %                   & \lieu{(Paris, discontinued)} \\
 
-2009 & \activite{corefarm.org} \comment{meshing web browsers to render
-3d scenes} \\
+2009 & \activite{corefarm.org} \comment{built a 3d rendering farm for
+  Blender 3D using the Yafaray engine, dispatching the work on a grid
+  of personal computers. over 1000 users
+  trading their CPU time} \\
 %       & \lieu{(Paris, discontinued)} \\
 
-2010 & \activite{corefarm.com} \comment{Blender 3d rendering farm in AWS}\\
+2010 & \activite{corefarm.com} \comment{built a 3d rendering farm for
+  Blender 3D in AWS. 100 users, commercial failure, opensourced the code}\\
  %       & \lieu{(Paris, discontinued, some pieces sold to issuu.com, other
  %         open-sourced)} \\
 
-2011 - 2013 & \activite{besport.com} \comment{CTO then CEO, sport social network} \\
+2011 - 2013 & \activite{besport.com} \comment{cofounded a sport social
+  network, hired a team of 9 engineers, raised 1.2m\$} \\
 %& \lieu{(San Francisco)}\\
 
-2013 - & \activite{besport.com} \comment{board member, sport social
-  network} \\
-%&  \lieu{(Paris)}\\
-
 2013 - 2014 & \activite{rambugo.com}
-   \comment{founder, online marketplace for Air Taxis} \\
+   \comment{built an experimental marketplace for on-demand regional
+     flights in Northern California using light aircraft} \\
 %&  \lieu{(San Francisco, discontinued)} \\
 
 2015 - & \activite{accret.io}
-   \comment{founder, non-profit, tools for local/micro leaders} \\
-%& \lieu{(San Francisco)} \\
+   \comment{built a non-profit social app connecting
+     families and providers of children activities in San Francisco} \\
+%& \lieu{(San Francisco)}\\
 
 \end{rubriquetableau}
 
-\begin{rubriquetableau}[3.5cm]{Contracting activity}
+\begin{rubriquetableau}[3.0cm]{Contracting activity}
 2010 - 2011
    & \activite{hypios.com}
-   \comment{scientific problems' marketplace} \\
+   \comment{led a team of 3 engineers, built a scientific problems'
+     marketplace connecting research centers and industrial users} \\
  % & \lieu{(Paris, discontinued in 2014)}\\
 
 2011
    & \activite{issuu.com}
-   \comment{contributing to issuu's ad network initial OCaml implementation}\\
+   \comment{designed and implemented an ad network in OCaml including
+     real-time ad presentation and offline processing of 150M documents,
+     handed over the code to the team in Copenhagen}\\
 % & \lieu{(Copenhagen)}\\
 
 2013
 & \activite{stretchinc.com}
-   \comment{built full stack prototype of a cloud based/html5 DVR} \\
+   \comment{designed and implemented a full stack prototype of a cloud based/html5
+     DVR, including embedded C code in HD cameras, AWS S3 storage and real time video
+     re-encoding using ffmpeg} \\
 % & \lieu{(Sunnyvale)} \\
 
 2013
 & \activite{referrallama.com}
-   \comment{built full stack prototype of a referral platform} \\
+   \comment{designed and implemented a full stack prototype of a referral platform on top
+     of LinkedIn} \\
  % &  \lieu({New York}) \\
 
 2013 -
 & \activite{sumologic.com}
-   \comment{rebuilt ingest+search engine for machine logs
-     using scala/akka} \\
+   \comment{worked with the Search Performance team to design and implement a real time log ingest and search
+     component that handles 5Tb+/day, then with the Metrics team to build an ingest pipeline
+     on top of Cassandra} \\
+
+2015 -
+& \activite{lumity.com}
+   \comment{built a full stack healthcare sales platform on top of
+     Lumity's proprietary optimization engine} \\
 % &  \lieu{(Redwood City)} \\
 
 \end{rubriquetableau}
 
+\begin{rubriquetableau}[3.0cm]{Talks}
+2010
+        & \activite{OCaml meeting 2010}
+        \comment{\og the collaborative rendering farm: a
+          JoCaml grid\fg,  \url{http://bit.ly/1N5kRXU}}
+\end{rubriquetableau}
+
+\newpage
+
 \begin{rubrique}{Skills}%
 \begin{itemize}
 \item Programming in Ocaml (including Camlp4), Scala (including Akka), Js, SASS
-\item After a little refresher, programming  in C/C++ (including Boost)
-\item Defining pleasant and scalable architectures
-\item Defining \& implementing prototypes and MVP's
-\item Using modern tools for the job (OCaml to JS compiler for web
-  dev)
-\item Learning and leveraging new techniques or mindsets
-\item Flying airplanes
+\item Programming in C/C++ (including Boost, OpenCV, MPI)
+\item Developing and scaling with AWS technologies
+\item Working with large codebases spanning several teams, Git
+\item Defining elegant and scalable architectures
+\item Defining and implementing prototypes and MVP's
+\item FAA Private Pilot Licence with an Instrument Rating
 \end{itemize}
 \end{rubrique}
 

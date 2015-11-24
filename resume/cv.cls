@@ -29,7 +29,7 @@
 \def\@textbottom{\vspace*{\stretch{1}}}
 \makeatother
 
-  
+
    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
    %      Paramètres réglables          %
    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -90,14 +90,14 @@
 %
 % Lorsqu'on omet le paramètre entre crochets, cela a pour effet
 % de donner la dimension \linewidth à la première colonne (mais la
-% structure reste celle d'un tableau à deux colonnes, donc ne pas oublier 
+% structure reste celle d'un tableau à deux colonnes, donc ne pas oublier
 % d'écrire '\\' pour les retours à la ligne).
 
 \makeatletter
 
 \newlength{\@cvlenB}\newlength{\@cvlenC}
 
-\newenvironment{rubriquetableau}[2][\linewidth]%% "rubriquetableau" 
+\newenvironment{rubriquetableau}[2][\linewidth]%% "rubriquetableau"
 %						% prend deux arguments
 {\bgroup\rubrique{#2}%     % le second argument : titre
 \setlength{\@cvlenB}{#1}%  % Le premier argument :indentation
@@ -112,7 +112,7 @@
 	      {\hspace*{\rubriquetableauparindent}}
 	      {}%
     }>{\setlength{\parindent}{\rubriquetableauparindent}}p{\@cvlenC}}}
-{\end{tabular}\egroup}
+{\end{tabular}\vspace{0.2cm}\egroup}
 
 \makeatother
 
@@ -153,6 +153,3 @@
 \noindent\begin{minipage}{\linewidth}\hspace{-2cm}%
 }
 {\end{minipage}\vspace{\stretch{0.25}}}
-
-
-
