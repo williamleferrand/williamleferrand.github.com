@@ -36,7 +36,7 @@
 
 % L'utilisateur peut les redéfinir ceux-ci «\renewcommand» si besoin :
 
-\newcommand{\espaceInterRubrique}{\medskip\vspace{\stretch{0.1}}}
+\newcommand{\espaceInterRubrique}{\medskip\vspace{\stretch{0.0}}}
 
 % L'utilisateur peut les redéfinir ceux-ci «\setlength» si besoin :
 
