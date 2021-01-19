@@ -81,7 +81,7 @@
 % LaTeX avec les «&» et les «\\» qui vont bien.
 % Par exemple :
 %
-% \begin{rubriquetableau}[3.5cm]{pipotage}
+% \begin{rubriquetableau}[5cm]{pipotage}
 % 1999--2000 	& ligne 1\\
 % 		& ligne 2\\
 % 1998--1999	& ligne 1\\
