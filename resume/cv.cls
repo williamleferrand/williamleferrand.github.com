@@ -112,7 +112,7 @@
 	      {\hspace*{\rubriquetableauparindent}}
 	      {}%
     }>{\setlength{\parindent}{\rubriquetableauparindent}}p{\@cvlenC}}}
-{\end{tabular}\vspace{0.2cm}\egroup}
+{\end{tabular}\vspace{2mm}\egroup}
 
 \makeatother
 
